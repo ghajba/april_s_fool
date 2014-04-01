@@ -15,7 +15,9 @@ public class FoolingAround {
 		final String s2 = s1.intern();
 		
 		System.out.println(s1 != "Welcome");
+        System.out.println("Welcome".equals(s1));
 		System.out.println(s2 == "Welcome");
+        System.out.println("Welcome".equals(s2));
 		magick();
 		System.out.println(s1);
 		System.out.println(s2);
