@@ -23,6 +23,7 @@ public class FoolingAround {
 		System.out.println("-------------");
 		
 		integerTricks();
+        System.out.println((Integer)5 * 3);
 	}
 
 	/*
@@ -42,8 +43,6 @@ public class FoolingAround {
 		final Integer[] cache = (Integer[])field.get(null);
 		
 		cache[133] = 11;
-		
-		System.out.println((Integer)5 * 3);
 	}
 	
 
