@@ -27,6 +27,7 @@ public class FoolingAround {
 		
 		integerTricks();
         System.out.println((Integer)5 * 3);
+        System.out.println(Integer.valueOf(5));
 	}
 
 	/*
